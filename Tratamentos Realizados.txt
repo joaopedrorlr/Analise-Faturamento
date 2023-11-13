@@ -1,0 +1,54 @@
+-Importar bases
+
+-Unir bases Perfect Pay (PP)
+
+-Hotmart
+	->Preencher valores vazios da coluna de país (com 'Brasil')
+	->Criar coluna de Valor da Venda (Preço total convertido * Câmbio)
+	->Criar coluna de nome da plataforma ('Hotmart')
+	->Criar colunas de mês e ano
+	->Preencher valores vazios da coluna de Valor da Venda (Preço do produto)
+	->Preencher valores vazios da coluna de Valor da Comissão Convertido (valor da 	comissão gerada)
+	->Selecionando as colunas que vão ser utilizadas e colocando em ordem
+
+-Kiwify
+	->Criar coluna de País (com 'Brasil')
+	->Criar coluna de nome da plataforma ('Kiwify')
+	->Criar colunas de mês e ano
+	->Selecionando as colunas que vão ser utilizadas e colocando em ordem
+
+-PP
+	->Criar coluna de País (com 'Brasil')
+	->Criar coluna de nome da plataforma ('Perfect Pay')
+	->Criar colunas de mês e ano
+	->Selecionando as colunas que vão ser utilizadas e colocando em ordem
+	->Mudando tipos das colunas de Valor Venda e Valor Comissão
+
+-Stripe
+	->Criar coluna de País (com 'Exterior')
+	->Criar coluna de produto ('xxxx')
+	->Criar colunas de forma de pagamento ('Cartão de crédito')
+	->Criar coluna de Valor Líquido (Converted amount - Fee)
+	->Criar coluna de nome da plataforma ('Stripe')
+	->Selecionando as colunas que vão ser utilizadas e colocando em ordem
+
+-Unir bases
+
+-Agrupar produtos com mesmo nome na coluna de produtos
+
+-Agrupar produtos com menos de 30 vendas em 'outros'
+
+-Agrupar status que se referem à mesma coisa na coluna de status
+
+-Arredondar valor da venda para 2 casas decimais
+
+-Agrupar formas de pagamento que se referem à mesma coisa na coluna de forma de pagamento
+
+-Agrupar formas de pagamento com menos de 20 vendas em 'outros'
+
+-Transformar todos países fora o Brasil em 'Exterior'
+
+
+
+
+
